@@ -4,7 +4,11 @@ module.exports = {
     './src/**/*.tsx'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: 'Acme, sans-serif, Chakra Petch, sans-serif',
+      },
+    },
   },
   plugins: [],
 }
