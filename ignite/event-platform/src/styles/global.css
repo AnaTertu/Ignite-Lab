@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 body {
-  @apply bg-zinc-900 text-zinc-100;
+    @apply bg-stone-900 text-stone-200;
+    -webkit-font-smoothing: antialiased;
 }
 
 .sub__title {
-  @apply text-2xl font-light text-violet-300;
+    @apply text-2xl font-light text-violet-300;
 }
