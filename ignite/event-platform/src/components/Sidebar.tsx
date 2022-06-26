@@ -37,10 +37,11 @@ export function Sidebar() {
                 {data?.lessons.map(lesson => {
                     return (
                         <Lesson
-                        key={lesson.id}
+                            key={lesson.id}
                             title={lesson.title}
                             availableAt={new Date(lesson.availableAt)}
-                            type={lesson.lessonType} />
+                            type={lesson.lessonType}
+                        />
                     )
                 })}                
             </div>
