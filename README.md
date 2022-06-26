@@ -1,7 +1,7 @@
 # Ignite-Lab
 ### Projeto frontend em react desenvolvido na semana Rocketseat
 #### npm run dev
-##### npm i @apollo/client graphql phosphor-react
+##### npm i @apollo/client graphql phosphor-react date-fns
 ### * HTML | CSS | JavaScript | Angular
 
 ### Ana Tertuliano ✨
